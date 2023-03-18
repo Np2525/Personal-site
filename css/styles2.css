@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+.top-container{
+    background-color: #C9EEFF;
+    padding-top: 100px;
+    position: relative;
+    
+}
+.middle-container{
+    background-color: #1C82AD;
+    height: 240px;
+    border: 20px;
+}
+.bottom-container {
+    border:  10px;
+   
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.me{
+    border-radius: 80%;
+    border: 1px solid #ddd;
+    width: 150px;
+}
+.guitarimg{
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    width: 25%;
+    float:left;
+}
+.codeimg{
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    width: 25%;
+    float:right;
+
+}
+h1{
+    color: #13005A;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
+}
+h2{
+    color: #13005A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    }
+    h3{
+        color: #00337C;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+        font-weight: bold;
+    }
+.text{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skill-row{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 2;
+}
+.btn{
+        border: none;
+        color: #b8a9c9;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      
+.btn:hover {
+        background-color: #13005A;
+        color: #1C82AD;
+        border: 2px solid #13005A;
+      }
+      a:link, a:visited {
+        background-color: #1C82AD;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: #00337C
+      }
+.contact-me{
+    background-color: #d5ebee;
+}
